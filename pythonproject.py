@@ -9,7 +9,6 @@ warnings.filterwarnings('ignore')
 st.set_page_config(page_title="Automobile Sales Analysis",page_icon=":oncoming_automobile:",layout = "wide")
 st.title(":oncoming_automobile: AUTOMOBILE SALES: DASHBOARD")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
-os.chdir(r"/Users/")
 df = pd.read_csv("autosales.csv",encoding = "ISO-8859-1")
 
 #col1, col2 = st.columns((2))
